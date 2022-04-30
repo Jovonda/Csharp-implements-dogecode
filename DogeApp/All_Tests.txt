@@ -1,0 +1,140 @@
+such "Seven";
+such false;
+such 7;
+such 3 + 4;
+such 2 + 5 > 7;
+
+very some = 50;
+such some;
+
+excite (1 > 0) {
+  such "1 is greater";
+}exit {
+  such "0 is greater";
+}
+
+very position = "President of the United States";
+such position;
+
+very name = "Joe" + " " + "Biden";
+such name;
+
+very sentence = name + " is the " + position + ".";
+such sentence;
+
+very a = 2;
+very b = 1;
+very c = 5;
+
+excite (a > b)
+{
+    such "A is greater";
+}
+exit
+{
+    such "B is greater";
+}
+
+many (a < 5) {
+  such a;
+  a = a + 1;
+}
+such a;
+
+such "For Loop 1";
+somany(very d =1; d < 5; d = d + 1) {
+  such d * 10;
+}
+
+such "For Loop 2";
+somany (very e = 1; e < 10; e = e + 1) {
+  such e / 2;
+}
+
+wow helloWorld() {
+    such "Hello World";
+}
+
+helloWorld();
+
+wow square(num) {
+    return (num * num);
+}
+
+such(square(2));
+such(square(7));
+such(square(12));
+
+very f = 1;
+very g = 20;
+very h = 300;
+
+such f;
+
+such (f + f);
+such (f + g);
+such (f + h);
+
+very end = 10;
+
+many (end != 0) {
+    such "This has not ended yet.";
+    end = end - 1;
+}
+
+very cake = "cake";
+very ice = "icecream";
+very cookie = "cookie";
+very brownie = "brownie";
+
+somany (very dessert = 4; dessert != 0; dessert = dessert - 1) {
+    excite (dessert = 4) {
+        such cake;
+    }
+    excite (dessert = 3) {
+        such ice;
+    }
+    excite (dessert = 2) {
+        such cookie;
+    }
+    excite (dessert = 1) {
+        such brownie;
+    }
+}
+
+somany (very i = 10; i != 0; i = i - 1) {
+    such("*");
+}
+
+wow fact(num) {
+    excite (num == 0) {
+        return 1;
+    }
+    exit {
+        return (num * fact(num - 1));
+    }
+}
+
+such(fact(4));
+such(fact(10));
+such(fact(24));
+such(fact(29));
+
+wow sumation(num) {
+    very sum = 0;
+    very i = 1;
+
+    many (i <= num) {
+        sum = sum + i;
+        i = i+1;
+    }
+
+    return sum;
+}
+
+such "The sum of three is ";
+such (sumation(3));
+such "The sum of nine is ";
+such (sumation(9));
+such "The sum of five is ";
+such (sumation(5));
