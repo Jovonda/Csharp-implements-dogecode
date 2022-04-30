@@ -1,0 +1,30 @@
+very end = 10;
+
+many (end != 0) {
+    such "This has not ended yet.";
+    end = end - 1;
+}
+
+very cake = "cake";
+very ice = "icecream";
+very cookie = "cookie";
+very brownie = "brownie";
+
+somany (very dessert = 4; dessert != 0; dessert = dessert - 1) {
+    excite (dessert = 4) {
+        such cake;
+    }
+    excite (dessert = 3) {
+        such ice;
+    }
+    excite (dessert = 2) {
+        such cookie;
+    }
+    excite (dessert = 1) {
+        such brownie;
+    }
+}
+
+somany (very i = 10; i != 0; i = i - 1) {
+    such("*");
+}

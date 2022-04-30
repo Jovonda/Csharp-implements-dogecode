@@ -1,0 +1,13 @@
+wow fact(num) {
+    excite (num == 0) {
+        return 1;
+    }
+    exit {
+        return (num * fact(num - 1));
+    }
+}
+
+such(fact(4));
+such(fact(10));
+such(fact(24));
+such(fact(29));

@@ -1,0 +1,18 @@
+very a = 2;
+very b = 1;
+very c = 5;
+
+excite (a > b)
+{
+    such "A is greater";
+}
+exit
+{
+    such "B is greater";
+}
+
+many (a < 5) {
+  such a;
+  a = a + 1;
+}
+such a;

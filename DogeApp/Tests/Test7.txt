@@ -1,0 +1,5 @@
+wow helloWorld() {
+    such "Hello World";
+}
+
+helloWorld();

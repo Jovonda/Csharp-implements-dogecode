@@ -1,0 +1,8 @@
+very position = "President of the United States";
+such position;
+
+very name = "Joe" + " " + "Biden";
+such name;
+
+very sentence = name + " is the " + position + ".";
+such sentence;

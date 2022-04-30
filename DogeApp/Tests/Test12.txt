@@ -1,0 +1,18 @@
+wow sumation(num) {
+    very sum = 0;
+    very i = 1;
+
+    many (i <= num) {
+        sum = sum + i;
+        i = i+1;
+    }
+
+    return sum;
+}
+
+such "The sum of three is ";
+such (sumation(3));
+such "The sum of nine is ";
+such (sumation(9));
+such "The sum of five is ";
+such (sumation(5));

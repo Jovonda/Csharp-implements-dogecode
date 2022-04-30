@@ -1,0 +1,5 @@
+such "Seven";
+such false;
+such 7;
+such 3 + 4;
+such 2 + 5 > 7;

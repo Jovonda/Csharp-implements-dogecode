@@ -1,0 +1,9 @@
+very f = 1;
+very g = 20;
+very h = 300;
+
+such f;
+
+such (f + f);
+such (f + g);
+such (f + h);

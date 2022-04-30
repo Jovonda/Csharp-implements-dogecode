@@ -1,0 +1,7 @@
+wow square(num) {
+    return (num * num);
+}
+
+such(square(2));
+such(square(7));
+such(square(12));
