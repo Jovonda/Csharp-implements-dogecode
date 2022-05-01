@@ -1,5 +1,5 @@
 excite (1 > 0) {
   such "1 is greater";
-}exit {
+}etc {
   such "0 is greater";
 }

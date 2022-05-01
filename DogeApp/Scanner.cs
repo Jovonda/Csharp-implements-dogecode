@@ -16,7 +16,7 @@ namespace cdoge
             //keywords = new Dictionary<string, TokenType>();
             keywords.Add("and", TokenType.AND);
             keywords.Add("much", TokenType.CLASS);
-            keywords.Add("exit", TokenType.ELSE);
+            keywords.Add("etc", TokenType.ELSE);
             keywords.Add("false", TokenType.FALSE);
             keywords.Add("somany", TokenType.FOR);
             keywords.Add("wow", TokenType.FUN);
