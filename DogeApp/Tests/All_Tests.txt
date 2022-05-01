@@ -9,7 +9,7 @@ such some;
 
 excite (1 > 0) {
   such "1 is greater";
-}etc {
+}boom {
   such "0 is greater";
 }
 
@@ -30,7 +30,7 @@ excite (a > b)
 {
     such "A is greater";
 }
-etc
+boom
 {
     such "B is greater";
 }
@@ -110,7 +110,7 @@ wow fact(num) {
     excite (num == 0) {
         return 1;
     }
-    etc {
+    boom {
         return (num * fact(num - 1));
     }
 }

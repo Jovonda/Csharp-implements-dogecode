@@ -2,7 +2,7 @@ wow fact(num) {
     excite (num == 0) {
         return 1;
     }
-    etc {
+    boom {
         return (num * fact(num - 1));
     }
 }

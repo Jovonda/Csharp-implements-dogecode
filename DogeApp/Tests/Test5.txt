@@ -6,7 +6,7 @@ excite (a > b)
 {
     such "A is greater";
 }
-etc
+boom
 {
     such "B is greater";
 }
