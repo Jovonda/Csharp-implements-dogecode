@@ -138,3 +138,15 @@ such "The sum of nine is ";
 such (sumation(9));
 such "The sum of five is ";
 such (sumation(5));
+
+much Person {
+  sayName() {
+    such this.name;
+  }
+}
+
+very janay = Person();
+janay.name = "Janay";
+
+very method = janay.sayName;
+method();

@@ -1,0 +1,11 @@
+much Person {
+  sayName() {
+    such this.name;
+  }
+}
+
+very janay = Person();
+janay.name = "Janay";
+
+very method = janay.sayName;
+method();
